@@ -1,0 +1,130 @@
+
+body{
+    background-color:rgb(98, 182, 203,0.9);
+}
+
+.titulo {
+  font-family: "Sofadi One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 40px;
+}
+h2{
+    font-family: "Sofadi One", system-ui;
+}
+.sobre{
+    text-align: center;
+    font-size: 25px;
+}
+.descricao{
+    text-align: center;
+    background-color:rgb(202, 233, 255);
+    font-family:monospace;
+    color: rgb(27, 73, 130);
+    font-weight: bold;
+    border-radius: 20px;
+    font-size: 15px;
+}
+.textopergunta{
+    font-weight: bold;
+    font-style: italic;
+}
+textarea{
+    border: 3px solid blue;
+    border-radius: 4px;
+}
+select{
+    width: 50%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+  border-radius: 20px;
+  font-size: 18px;
+  font-style: italic;
+}
+#tabelapontuacao{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    text-align: left;
+}
+#tabelapontuacao td, #tabelapontuacao th{
+    border: 2px solid #ddd;
+    padding: 8px;
+}
+#tabelapontuacao tr:nth-child(even){
+    background-color:rgb(202, 233, 255);
+}
+#tabelapontuacao tr:nth-child(odd){
+background-color:#89c2d9;
+}
+#tabelapontuacao tr:hover{
+    background-color:rgb(98, 182, 203);
+}
+input[type=text]{
+    width: 50%;
+  padding: 16px 0px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+  border-radius: 20px;
+}
+input[type=password]{
+    width: 50%;
+  padding: 16px 0px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+  border-radius: 20px;
+}
+input[type=date]{
+    width: 50%;
+  padding: 16px 0px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+  border-radius: 20px;
+}
+#p6{
+        width: 50%;
+      padding: 16px 0px;
+      border: none;
+      border-radius: 4px;
+      background-color: #f1f1f1;
+      border-radius: 20px;
+}
+input[type=email]{
+    width: 50%;
+  padding: 16px 0px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+  border-radius: 20px;
+}
+button{
+    background-color: #368fd8; /* Green */
+    border-radius: 20px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+button:hover{
+   font-size: 22px;
+}
+
+.logo{
+    width: 20%;
+    background-color: white;
+    
+    
+}
+.feedback{
+    font-size: 18px;
+}
+
+
